@@ -3,7 +3,7 @@
 # FlowTune 🎵
 **AI-Powered Music Creation on Flow Blockchain**
 
-![FlowTune Platform](./assets/flowtune-platform-screenshot.svg)
+![FlowTune Platform](./assets/show.png)
 
 **Language / 语言**
 
