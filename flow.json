@@ -1,0 +1,41 @@
+{
+  "contracts": {
+    "MusicNFT": "./cadence/contracts/MusicNFT.cdc",
+    "Marketplace": "./cadence/contracts/Marketplace.cdc",
+    "RoyaltyDistributor": "./cadence/contracts/RoyaltyDistributor.cdc",
+    "SecurityManager": "./cadence/contracts/SecurityManager.cdc"
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "testnet": "access.devnet.nodes.onflow.org:9000",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "2eae2f31cb5b756151fa11d82949c634b8f28796a711d7eb1e52cc301ed11111"
+    },
+    "testnet-account": {
+      "address": "0x123456789abcdef0",
+      "key": "9f7a1c2359fc47fc3b43d5e9fd62234a74184f3315bc641cc88bbeaac3fe0850"
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "emulator-account": [
+        "SecurityManager",
+        "MusicNFT",
+        "Marketplace", 
+        "RoyaltyDistributor"
+      ]
+    },
+    "testnet": {
+      "testnet-account": [
+        "SecurityManager",
+        "MusicNFT",
+        "Marketplace",
+        "RoyaltyDistributor"
+      ]
+    }
+  }
+}

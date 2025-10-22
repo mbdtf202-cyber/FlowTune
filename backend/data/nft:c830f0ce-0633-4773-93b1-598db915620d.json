@@ -1,0 +1,90 @@
+{
+  "id": "c830f0ce-0633-4773-93b1-598db915620d",
+  "title": "Classical Serenity",
+  "description": "A peaceful classical composition featuring piano and strings",
+  "creator": "0x3456789012345678901234567890123456789012",
+  "owner": "0x3456789012345678901234567890123456789012",
+  "collaborators": [],
+  "music": {
+    "duration": 0,
+    "genre": "",
+    "bpm": 0,
+    "key": "",
+    "mood": "",
+    "instruments": [],
+    "tags": []
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 7341,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0x6ee9fa6793c878",
+    "blockNumber": 1152814,
+    "gasUsed": 95645,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "8.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 1318,
+    "plays": 1059,
+    "likes": 60,
+    "shares": 50,
+    "downloads": 20,
+    "comments": 25,
+    "uniqueListeners": 260,
+    "totalPlayTime": 10015
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": true,
+  "category": "music",
+  "tags": [
+    "classical",
+    "piano",
+    "peaceful"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:34:43.628Z",
+  "updatedAt": "2025-10-20T14:34:43.628Z",
+  "publishedAt": null
+}

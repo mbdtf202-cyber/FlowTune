@@ -1,0 +1,135 @@
+.flow-network-status {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 200px;
+  backdrop-filter: blur(10px);
+}
+
+.flow-network-status.connected {
+  border-left: 4px solid #10b981;
+}
+
+.flow-network-status.disconnected {
+  border-left: 4px solid #ef4444;
+}
+
+.flow-network-status.checking {
+  border-left: 4px solid #f59e0b;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.green {
+  background-color: #10b981;
+  animation: pulse-green 2s infinite;
+}
+
+.status-dot.red {
+  background-color: #ef4444;
+  animation: pulse-red 2s infinite;
+}
+
+.status-dot.yellow {
+  background-color: #f59e0b;
+  animation: pulse-yellow 2s infinite;
+}
+
+.status-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.block-height {
+  font-size: 12px;
+  color: #6b7280;
+  margin-left: auto;
+}
+
+.error-details {
+  margin-top: 8px;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #ef4444;
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+.retry-button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.retry-button:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.retry-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+@keyframes pulse-green {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulse-red {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulse-yellow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .flow-network-status {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "551f856b-6e9b-49c5-abb4-2688add44683",
+  "title": "Ethereal Dreams",
+  "description": "A mystical ambient track that transports listeners to otherworldly realms",
+  "creator": "test-creator-1",
+  "owner": "test-creator-1",
+  "collaborators": [],
+  "music": {
+    "duration": 240,
+    "genre": "Ambient",
+    "bpm": 80,
+    "key": "C Major",
+    "mood": "Dreamy",
+    "instruments": [
+      "Synthesizer",
+      "Pad",
+      "Reverb"
+    ],
+    "tags": [
+      "ambient",
+      "ethereal",
+      "dreamy",
+      "atmospheric"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "10.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:43:23.641Z",
+  "updatedAt": "2025-10-20T14:43:23.642Z",
+  "publishedAt": null
+}

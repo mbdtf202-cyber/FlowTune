@@ -1,0 +1,91 @@
+{
+  "id": "c218d113-d846-468f-a624-ee03cdd8bbba",
+  "title": "Urban Pulse",
+  "description": "High-energy electronic beats perfect for city nightlife",
+  "creator": "test-creator-2",
+  "owner": "test-creator-2",
+  "collaborators": [],
+  "music": {
+    "duration": 180,
+    "genre": "Electronic",
+    "bpm": 128,
+    "key": "A Minor",
+    "mood": "Energetic",
+    "instruments": [
+      "Drum Machine",
+      "Bass Synth",
+      "Lead Synth"
+    ],
+    "tags": [
+      "electronic",
+      "urban",
+      "energetic",
+      "dance"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "15.5",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:43:23.646Z",
+  "updatedAt": "2025-10-20T14:43:23.646Z",
+  "publishedAt": null
+}

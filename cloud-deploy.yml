@@ -1,0 +1,149 @@
+# FlowTune 云部署配置
+# 支持 Railway, Render, DigitalOcean, AWS 等平台
+
+# Railway 部署配置
+railway:
+  services:
+    frontend:
+      build:
+        dockerfile: Dockerfile.frontend
+      port: 80
+      env:
+        NODE_ENV: production
+    
+    backend:
+      build:
+        dockerfile: Dockerfile.backend
+      port: 3001
+      env:
+        NODE_ENV: production
+        DATABASE_URL: ${{Postgres.DATABASE_URL}}
+        REDIS_URL: ${{Redis.REDIS_URL}}
+    
+    postgres:
+      image: postgres:15
+      env:
+        POSTGRES_DB: flowtune
+        POSTGRES_USER: flowtune
+        POSTGRES_PASSWORD: ${{POSTGRES_PASSWORD}}
+    
+    redis:
+      image: redis:7
+
+# Render 部署配置
+render:
+  services:
+    - type: web
+      name: flowtune-frontend
+      env: docker
+      dockerfilePath: ./Dockerfile.frontend
+      port: 80
+      envVars:
+        - key: NODE_ENV
+          value: production
+    
+    - type: web
+      name: flowtune-backend
+      env: docker
+      dockerfilePath: ./Dockerfile.backend
+      port: 3001
+      envVars:
+        - key: NODE_ENV
+          value: production
+        - key: DATABASE_URL
+          fromDatabase:
+            name: flowtune-db
+            property: connectionString
+    
+  databases:
+    - name: flowtune-db
+      databaseName: flowtune
+      user: flowtune
+
+# Docker Compose for VPS
+vps:
+  version: '3.8'
+  services:
+    traefik:
+      image: traefik:v2.10
+      command:
+        - "--api.insecure=true"
+        - "--providers.docker=true"
+        - "--providers.docker.exposedbydefault=false"
+        - "--entrypoints.web.address=:80"
+        - "--entrypoints.websecure.address=:443"
+        - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+        - "--certificatesresolvers.myresolver.acme.email=your-email@example.com"
+        - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+      ports:
+        - "80:80"
+        - "443:443"
+        - "8080:8080"
+      volumes:
+        - "/var/run/docker.sock:/var/run/docker.sock:ro"
+        - "./letsencrypt:/letsencrypt"
+      networks:
+        - web
+
+    frontend:
+      build:
+        context: .
+        dockerfile: Dockerfile.frontend
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.frontend.rule=Host(`your-domain.com`)"
+        - "traefik.http.routers.frontend.entrypoints=websecure"
+        - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+        - "traefik.http.services.frontend.loadbalancer.server.port=80"
+      networks:
+        - web
+        - internal
+
+    backend:
+      build:
+        context: .
+        dockerfile: Dockerfile.backend
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.backend.rule=Host(`api.your-domain.com`)"
+        - "traefik.http.routers.backend.entrypoints=websecure"
+        - "traefik.http.routers.backend.tls.certresolver=myresolver"
+        - "traefik.http.services.backend.loadbalancer.server.port=3001"
+      environment:
+        - NODE_ENV=production
+        - DATABASE_URL=postgresql://flowtune:${POSTGRES_PASSWORD}@postgres:5432/flowtune
+        - REDIS_URL=redis://redis:6379
+      networks:
+        - web
+        - internal
+      depends_on:
+        - postgres
+        - redis
+
+    postgres:
+      image: postgres:15-alpine
+      environment:
+        - POSTGRES_DB=flowtune
+        - POSTGRES_USER=flowtune
+        - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+      networks:
+        - internal
+
+    redis:
+      image: redis:7-alpine
+      volumes:
+        - redis_data:/data
+      networks:
+        - internal
+
+  volumes:
+    postgres_data:
+    redis_data:
+
+  networks:
+    web:
+      external: true
+    internal:
+      external: false

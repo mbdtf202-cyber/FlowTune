@@ -1,0 +1,489 @@
+{
+  "nav": {
+    "home": "首页",
+    "explore": "探索",
+    "create": "创作",
+    "profile": "个人资料",
+    "marketplace": "市场",
+    "dashboard": "仪表板",
+    "library": "音乐库",
+    "analytics": "分析",
+    "audioLibrary": "音频库"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "view": "查看",
+    "download": "下载",
+    "upload": "上传",
+    "share": "分享",
+    "like": "点赞",
+    "play": "播放",
+    "pause": "暂停",
+    "stop": "停止",
+    "volume": "音量",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "fullscreen": "全屏",
+    "exitFullscreen": "退出全屏",
+    "copied": "已复制！",
+    "copyLink": "复制链接",
+    "shareUrl": "分享链接",
+    "showQR": "显示二维码",
+    "hideQR": "隐藏二维码",
+    "export": "导出",
+    "import": "导入",
+    "connect": "连接",
+    "disconnect": "断开连接",
+    "login": "登录",
+    "logout": "退出登录",
+    "register": "注册"
+  },
+  "home": {
+    "title": "FlowTune",
+    "subtitle": "基于Flow区块链的AI音乐创作平台",
+    "description": "利用人工智能的力量创作、铸造和交易独特的音乐NFT",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "features": {
+      "aiGeneration": "AI音乐生成",
+      "nftMinting": "NFT铸造",
+      "marketplace": "市场交易",
+      "analytics": "数据分析"
+    }
+  },
+  "create": {
+    "title": "创作音乐",
+    "description": "使用AI生成独特的音乐",
+    "form": {
+      "prompt": "音乐提示词",
+      "promptPlaceholder": "描述您想要创作的音乐...",
+      "genre": "音乐风格",
+
+      "mood": "情绪",
+      "instruments": "乐器",
+      "generate": "生成音乐",
+      "generating": "生成中...",
+      "title": "音轨标题",
+      "titlePlaceholder": "输入音轨标题...",
+      "description": "描述",
+      "descriptionPlaceholder": "描述您的音轨..."
+    },
+    "genres": {
+      "electronic": "电子音乐",
+      "ambient": "环境音乐",
+      "classical": "古典音乐",
+      "jazz": "爵士乐",
+      "rock": "摇滚乐",
+      "pop": "流行音乐",
+      "hip-hop": "嘻哈音乐",
+      "techno": "科技舞曲",
+      "house": "浩室音乐",
+      "experimental": "实验音乐"
+    },
+    "notifications": {
+      "musicGenerated": "音乐生成成功！",
+      "musicGenerationFailed": "音乐生成失败，请重试。",
+      "audioUploaded": "音频文件上传成功！",
+      "invalidAudioFile": "请选择有效的音频文件。",
+      "coverImageUploaded": "封面图片上传成功！",
+      "invalidImageFile": "请选择有效的图片文件。",
+      "noAudioFile": "请先生成或上传音频。",
+      "missingMetadata": "请填写标题和艺术家信息。",
+      "nftMinted": "NFT铸造成功！您的音乐已上链。",
+      "nftMintFailed": "NFT铸造失败，请重试。"
+    }
+  },
+  "profile": {
+    "title": "个人资料",
+    "userNotFound": "用户未找到",
+    "userNotFoundDesc": "您查找的用户不存在。",
+    "joined": "加入时间",
+    "plays": "播放次数",
+    "likes": "点赞数",
+    "shares": "分享数",
+    "socialSharing": "社交分享",
+    "private": "私密"
+  },
+  "nav": {
+    "home": "首页",
+    "create": "创作",
+    "audioLibrary": "音频库",
+    "musicLibrary": "我的音乐",
+    "marketplace": "市场",
+    "dashboard": "仪表板",
+    "analytics": "分析",
+    "profile": "个人资料"
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "description": "管理您的音乐NFT并跟踪表现",
+    "connectWallet": "连接您的钱包",
+    "connectWalletDesc": "请连接您的钱包以查看仪表板",
+    "loading": "正在加载您的仪表板...",
+    "periods": {
+      "last7Days": "过去7天",
+      "last30Days": "过去30天",
+      "last90Days": "过去90天",
+      "lastYear": "过去一年"
+    },
+    "createNFT": "创建NFT",
+    "stats": {
+      "totalNFTs": "总NFT数",
+      "totalEarnings": "总收益",
+      "totalPlays": "总播放量",
+      "totalLikes": "总点赞数"
+    },
+    "myNFTs": "我的音乐NFT",
+    "nftsCount": "{{count}} 个NFT",
+    "noNFTs": "暂无NFT",
+    "noNFTsDesc": "创建您的第一个音乐NFT开始吧",
+    "createFirstNFT": "创建您的第一个NFT",
+    "nftStats": {
+      "plays": "播放量",
+      "likes": "点赞数",
+      "earnings": "收益",
+      "price": "价格",
+      "notListed": "未上架"
+    },
+    "status": {
+      "listed": "已上架",
+      "unlisted": "未上架",
+      "sold": "已售出",
+      "unknown": "未知"
+    },
+    "recentActivity": "最近活动",
+    "activity": {
+      "saleCompleted": "销售完成",
+      "saleCompletedDesc": "\"{{title}}\" 以 {{price}} FLOW 售出",
+      "nftCreated": "NFT已创建",
+      "nftCreatedDesc": "\"{{title}}\" 铸造成功",
+      "newLikes": "新点赞",
+      "newLikesDesc": "\"{{title}}\" 收到 {{count}} 个新点赞",
+      "timeAgo": {
+        "hours": "{{count}} 小时前",
+        "days": "{{count}} 天前"
+      }
+    }
+   },
+   "analytics": {
+     "title": "高级数据分析",
+     "description": "实时区块链数据监控和AI洞察分析",
+     "overview": "概览",
+     "blockchain": "区块链",
+     "nftMarket": "NFT市场",
+     "musicNft": "音乐NFT",
+     "aiInsights": "AI洞察",
+     "reports": "报告",
+     "timeRange": "时间范围",
+     "chartType": "图表类型",
+     "searchPlaceholder": "搜索分析数据...",
+     "sortBy": "排序方式",
+     "exportData": "导出数据",
+     "loading": "正在加载分析数据...",
+     "error": "加载分析数据失败",
+     "retry": "重试",
+     "exportJson": "导出JSON",
+     "exportCsv": "导出CSV",
+     "refresh": "刷新",
+     "dataFilters": "数据筛选",
+     "search": "搜索",
+     "searchArtists": "搜索艺术家、作品...",
+     "sortByDate": "按日期",
+     "sortByValue": "按价值",
+     "sortByVolume": "按交易量",
+     "sortByPrice": "按价格",
+     "timeRanges": {
+       "24h": "最近24小时",
+       "7d": "最近7天",
+       "30d": "最近30天",
+       "90d": "最近90天",
+       "1y": "最近一年"
+     },
+     "chartTypes": {
+       "line": "折线图",
+       "area": "面积图",
+       "bar": "柱状图",
+       "pie": "饼图"
+     },
+     "metrics": {
+       "totalVolume": "总交易量",
+       "activeUsers": "活跃用户",
+       "totalNfts": "NFT总数",
+       "averagePrice": "平均价格",
+       "monthlyGrowth": "较上月"
+     },
+     "charts": {
+       "tradingTrends": "交易趋势",
+       "genreDistribution": "类型分布"
+     },
+     "reports": {
+       "detailedStats": "详细统计报告",
+       "date": "日期",
+       "volume": "交易量",
+       "users": "用户数",
+       "avgPrice": "平均价格",
+       "growthRate": "增长率"
+     },
+     "insights": {
+       "aiInsights": "AI智能洞察",
+       "confidence": "置信度"
+     },
+     "units": {
+       "billion": "十亿",
+       "million": "百万",
+       "thousand": "千"
+     },
+     "errors": {
+       "dataFetchFailed": "数据获取失败",
+       "networkError": "网络错误"
+     }
+   },
+  "library": {
+    "title": "我的音乐库",
+    "description": "您的AI生成音乐NFT收藏",
+    "connectWallet": "连接您的钱包",
+    "connectWalletDesc": "请连接您的钱包以访问您的音乐库",
+    "connectWalletButton": "连接钱包",
+    "searchPlaceholder": "搜索您的音乐...",
+    "filters": {
+      "allMusic": "全部音乐",
+      "liked": "已收藏",
+      "recent": "最近播放",
+      "playlists": "播放列表"
+    },
+    "createPlaylist": "创建播放列表",
+    "tracks": "首歌曲",
+    "noMusicFound": "未找到音乐",
+    "adjustSearchTerms": "请尝试调整搜索条件",
+    "startCreatingMusic": "开始创作音乐来构建您的音乐库",
+    "createMusic": "创作音乐",
+    "notifications": {
+      "playingTrack": "正在播放歌曲",
+      "addedToFavorites": "已添加到收藏",
+      "linkCopied": "链接已复制到剪贴板",
+      "downloadStarted": "下载已开始"
+    }
+  },
+  "audioLibrary": {
+    "title": "音频库",
+    "description": "发现、播放和分析您的音乐收藏，享受高级流媒体功能",
+    "tabs": {
+      "library": "音乐库",
+      "analytics": "分析"
+    },
+    "filters": {
+      "allTracks": "所有音轨",
+      "myTracks": "我的音轨",
+      "liked": "已点赞",
+      "electronic": "电子音乐",
+      "hipHop": "嘻哈",
+      "jazz": "爵士"
+    },
+    "sort": {
+      "mostRecent": "最新",
+      "mostPopular": "最受欢迎",
+      "alphabetical": "A-Z"
+    },
+    "tracks": "首音轨",
+    "plays": "播放次数",
+    "owned": "已拥有",
+    "noTrackSelected": "未选择音轨",
+    "selectTrackToPlay": "从音乐库中选择一首音轨开始播放"
+  },
+  "musicLibrary": {
+    "title": "我的音乐库",
+    "description": "管理您创建和拥有的音乐NFT",
+    "connectWallet": "连接钱包",
+    "connectWalletDescription": "请连接您的钱包以查看音乐库",
+    "loading": "正在加载您的音乐库...",
+    "createNew": "创建新音乐",
+    "searchPlaceholder": "搜索音乐、艺术家、流派...",
+    "filters": {
+      "all": "全部音乐",
+      "created": "我创建的",
+      "owned": "我拥有的",
+      "favorites": "收藏夹"
+    },
+    "sort": {
+      "recent": "最新",
+      "popular": "最受欢迎",
+      "alphabetical": "A-Z",
+      "duration": "时长"
+    },
+    "tracks": "首音轨",
+    "noResults": "未找到音乐",
+    "noMusic": "音乐库中没有音乐",
+    "tryDifferentSearch": "尝试调整搜索条件",
+    "startCreating": "开始创建音乐来建立您的音乐库",
+    "createFirst": "创建您的第一首音轨",
+    "badges": {
+      "created": "已创建",
+      "forSale": "出售中"
+    },
+    "viewDetails": "查看详情",
+    "play": "播放",
+    "pause": "暂停",
+    "edit": "编辑",
+    "delete": "删除",
+    "share": "分享",
+    "download": "下载",
+    "like": "点赞",
+    "editNFT": "编辑NFT",
+      "confirmDelete": "您确定要删除这个NFT吗？此操作无法撤销。",
+      "shareNFT": "分享NFT",
+    "table": {
+      "track": "音轨",
+      "genre": "流派",
+      "duration": "时长",
+      "plays": "播放次数",
+      "date": "日期",
+      "actions": "操作"
+    },
+    "details": {
+      "genre": "流派",
+      "duration": "时长",
+      "plays": "播放次数",
+      "likes": "点赞数",
+      "description": "描述",
+      "blockchain": "区块链信息",
+      "tokenId": "代币ID",
+      "transaction": "交易"
+    },
+    "notifications": {
+      "loadFailed": "加载音乐库失败",
+      "playingTrack": "正在播放音轨",
+      "addedToFavorites": "已添加到收藏夹",
+      "linkCopied": "链接已复制到剪贴板",
+      "downloadStarted": "下载已开始",
+      "updateSuccess": "NFT更新成功",
+      "updateFailed": "NFT更新失败",
+      "deleteSuccess": "NFT删除成功",
+      "deleteFailed": "NFT删除失败",
+      "downloadStarting": "开始下载...",
+      "downloadSuccess": "下载完成",
+      "downloadFailed": "下载失败",
+      "downloadNotAllowed": "您没有权限下载此NFT",
+      "noAudioFile": "没有可下载的音频文件"
+    }
+  },
+  "marketplace": {
+    "title": "音乐NFT市场",
+    "description": "发现和收藏独特的AI生成音乐",
+    "noNFTs": "未找到NFT",
+    "price": "价格",
+    "owner": "拥有者",
+    "buyNow": "立即购买",
+    "placeBid": "出价",
+    "all": "全部",
+    "newestFirst": "最新优先",
+    "oldestFirst": "最旧优先",
+    "priceHighToLow": "价格：从高到低",
+    "priceLowToHigh": "价格：从低到高",
+    "mostPlayed": "最多播放",
+    "loading": "正在加载市场...",
+    "nftsAvailable": "个NFT可用",
+    "searchPlaceholder": "搜索音乐、艺术家...",
+    "plays": "播放次数",
+    "buy": "购买"
+  },
+  "library": {
+    "title": "我的音乐库",
+    "description": "您的音乐收藏",
+    "myTracks": "我的音轨",
+    "favorites": "收藏",
+    "playlists": "播放列表",
+    "recent": "最近播放"
+  },
+  "analytics": {
+    "title": "数据分析",
+    "description": "FlowTune生态系统的综合分析和洞察",
+    "overview": "概览",
+    "blockchain": "区块链",
+    "nftMarket": "NFT市场",
+    "musicNft": "音乐NFT",
+    "aiInsights": "AI洞察",
+    "reports": "报告",
+    "timeRange": "时间范围",
+    "chartType": "图表类型",
+    "searchPlaceholder": "搜索分析数据...",
+    "sortBy": "排序方式",
+    "exportData": "导出数据",
+    "loading": "正在加载分析数据...",
+    "error": "加载分析数据失败",
+    "retry": "重试",
+    "exportJson": "导出JSON",
+    "exportCsv": "导出CSV",
+    "refresh": "刷新",
+    "dataFilters": "数据筛选",
+    "search": "搜索",
+    "searchArtists": "搜索艺术家、作品...",
+    "sortByDate": "按日期",
+    "sortByValue": "按价值",
+    "sortByVolume": "按交易量",
+    "sortByPrice": "按价格",
+    "timeRanges": {
+      "24h": "最近24小时",
+      "7d": "最近7天",
+      "30d": "最近30天",
+      "90d": "最近90天",
+      "1y": "最近一年"
+    },
+    "chartTypes": {
+      "line": "折线图",
+      "area": "面积图",
+      "bar": "柱状图",
+      "pie": "饼图"
+    },
+    "metrics": {
+      "totalVolume": "总交易量",
+      "activeUsers": "活跃用户",
+      "totalNFTs": "NFT总数",
+      "averagePrice": "平均价格",
+      "vsLastMonth": "较上月"
+    },
+    "charts": {
+      "tradingTrend": "交易趋势",
+      "genreDistribution": "流派分布"
+    },
+    "reports": {
+      "detailedStats": "详细统计报告",
+      "date": "日期",
+      "volume": "交易量",
+      "users": "用户数",
+      "avgPrice": "平均价格",
+      "growthRate": "增长率"
+    },
+    "insights": {
+      "title": "AI智能洞察",
+      "confidence": "置信度"
+    },
+    "units": {
+      "billion": "十亿",
+      "million": "百万",
+      "thousand": "千"
+    },
+    "errors": {
+      "dataFetchFailed": "数据获取失败",
+      "networkError": "网络错误"
+    }
+  },
+  "language": {
+    "switch": "语言",
+    "english": "English",
+    "chinese": "中文"
+  }
+}

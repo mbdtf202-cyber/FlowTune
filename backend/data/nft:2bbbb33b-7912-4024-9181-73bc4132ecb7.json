@@ -1,0 +1,88 @@
+{
+  "id": "2bbbb33b-7912-4024-9181-73bc4132ecb7",
+  "title": "Test Market NFT",
+  "description": "Testing market field",
+  "creator": "0xTestCreator",
+  "owner": "0xTestOwner",
+  "collaborators": [],
+  "music": {
+    "duration": 180,
+    "genre": "Electronic",
+    "bpm": 120,
+    "key": "C",
+    "mood": "energetic",
+    "instruments": [
+      "synthesizer",
+      "drums"
+    ],
+    "tags": [
+      "electronic",
+      "test"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "5.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:37:07.592Z",
+  "updatedAt": "2025-10-20T14:37:07.593Z",
+  "publishedAt": null
+}

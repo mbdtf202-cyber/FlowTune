@@ -1,0 +1,82 @@
+{
+  "id": "27d092f4-b475-4058-971f-75188249640d",
+  "title": "Test Market NFT",
+  "description": "Testing market field",
+  "creator": "0xTestCreator",
+  "owner": "0xTestOwner",
+  "collaborators": [],
+  "music": {
+    "duration": 0,
+    "genre": "",
+    "bpm": 0,
+    "key": "",
+    "mood": "",
+    "instruments": [],
+    "tags": []
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "5.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:36:33.086Z",
+  "updatedAt": "2025-10-20T14:36:33.087Z",
+  "publishedAt": null
+}

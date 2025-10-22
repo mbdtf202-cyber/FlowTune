@@ -1,0 +1,94 @@
+{
+  "id": "e5f48670-11af-4758-bbe8-43828c68e8bd",
+  "title": "Classical Serenity",
+  "description": "A peaceful classical composition featuring piano and strings",
+  "creator": "0x3456789012345678901234567890123456789012",
+  "owner": "0x3456789012345678901234567890123456789012",
+  "collaborators": [],
+  "music": {
+    "duration": 300,
+    "genre": "Classical",
+    "bpm": 115,
+    "key": "C",
+    "mood": "melancholic",
+    "instruments": [],
+    "tags": [
+      "classical",
+      "piano",
+      "peaceful"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 7161,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0xbc611a646d0c8",
+    "blockNumber": 1165077,
+    "gasUsed": 142283,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "8.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 262,
+    "plays": 392,
+    "likes": 67,
+    "shares": 47,
+    "downloads": 5,
+    "comments": 6,
+    "uniqueListeners": 97,
+    "totalPlayTime": 3230
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": true,
+  "category": "music",
+  "tags": [
+    "classical",
+    "piano",
+    "peaceful"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:37:34.199Z",
+  "updatedAt": "2025-10-20T14:37:34.199Z",
+  "publishedAt": null
+}

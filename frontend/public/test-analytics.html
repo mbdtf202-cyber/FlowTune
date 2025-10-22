@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics API 测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            background: #3B82F6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        .button:hover {
+            background: #2563EB;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .success {
+            background: #D1FAE5;
+            color: #065F46;
+            border: 1px solid #10B981;
+        }
+        .error {
+            background: #FEE2E2;
+            color: #991B1B;
+            border: 1px solid #EF4444;
+        }
+        .data-display {
+            background: #F3F4F6;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Analytics API 连接测试</h1>
+        
+        <div>
+            <button class="button" onclick="testConnection()">测试连接</button>
+            <button class="button" onclick="fetchAnalyticsData()">获取分析数据</button>
+            <button class="button" onclick="clearResults()">清除结果</button>
+        </div>
+
+        <div id="status"></div>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:3002/api';
+        
+        function showStatus(message, isError = false) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="status ${isError ? 'error' : 'success'}">${message}</div>`;
+        }
+        
+        function showResults(data) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `<div class="data-display"><pre>${JSON.stringify(data, null, 2)}</pre></div>`;
+        }
+        
+        async function testConnection() {
+            showStatus('正在测试连接...');
+            try {
+                const response = await fetch(`${API_BASE_URL}/health`);
+                if (response.ok) {
+                    const data = await response.json();
+                    showStatus(`连接成功! 状态: ${response.status}`);
+                    showResults(data);
+                } else {
+                    showStatus(`连接失败! 状态: ${response.status}`, true);
+                }
+            } catch (error) {
+                showStatus(`连接错误: ${error.message}`, true);
+                console.error('Connection error:', error);
+            }
+        }
+        
+        async function fetchAnalyticsData() {
+            showStatus('正在获取分析数据...');
+            try {
+                const response = await fetch(`${API_BASE_URL}/analytics/dashboard`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Origin': 'http://localhost:3000'
+                    }
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    showStatus(`数据获取成功! 状态: ${response.status}`);
+                    showResults(data);
+                } else {
+                    const errorText = await response.text();
+                    showStatus(`数据获取失败! 状态: ${response.status} - ${errorText}`, true);
+                }
+            } catch (error) {
+                showStatus(`获取数据错误: ${error.message}`, true);
+                console.error('Fetch error:', error);
+            }
+        }
+        
+        function clearResults() {
+            document.getElementById('status').innerHTML = '';
+            document.getElementById('results').innerHTML = '';
+        }
+        
+        // 页面加载时自动测试连接
+        window.onload = function() {
+            testConnection();
+        };
+    </script>
+</body>
+</html>

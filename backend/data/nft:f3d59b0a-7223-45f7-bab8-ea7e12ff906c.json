@@ -1,0 +1,90 @@
+{
+  "id": "f3d59b0a-7223-45f7-bab8-ea7e12ff906c",
+  "title": "Ethereal Dreams",
+  "description": "A mesmerizing ambient track that takes you on a journey through ethereal soundscapes",
+  "creator": "0x1234567890123456789012345678901234567890",
+  "owner": "0x1234567890123456789012345678901234567890",
+  "collaborators": [],
+  "music": {
+    "duration": 0,
+    "genre": "",
+    "bpm": 0,
+    "key": "",
+    "mood": "",
+    "instruments": [],
+    "tags": []
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 8240,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0x3365b102b2948",
+    "blockNumber": 1163881,
+    "gasUsed": 96944,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "10.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 1060,
+    "plays": 418,
+    "likes": 195,
+    "shares": 16,
+    "downloads": 16,
+    "comments": 29,
+    "uniqueListeners": 148,
+    "totalPlayTime": 4782
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": true,
+  "category": "music",
+  "tags": [
+    "ambient",
+    "ethereal",
+    "relaxing"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:34:03.306Z",
+  "updatedAt": "2025-10-20T14:34:03.306Z",
+  "publishedAt": null
+}

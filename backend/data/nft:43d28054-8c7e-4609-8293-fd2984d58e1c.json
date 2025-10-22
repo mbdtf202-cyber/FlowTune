@@ -1,0 +1,92 @@
+{
+  "id": "43d28054-8c7e-4609-8293-fd2984d58e1c",
+  "title": "Jazz Fusion Nights",
+  "description": "Smooth jazz with modern electronic elements",
+  "creator": "test-creator-4",
+  "owner": "test-creator-4",
+  "collaborators": [],
+  "music": {
+    "duration": 220,
+    "genre": "Jazz",
+    "bpm": 110,
+    "key": "F# Minor",
+    "mood": "Smooth",
+    "instruments": [
+      "Saxophone",
+      "Electric Piano",
+      "Bass Guitar",
+      "Drums"
+    ],
+    "tags": [
+      "jazz",
+      "fusion",
+      "smooth",
+      "modern"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "12.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:45:21.256Z",
+  "updatedAt": "2025-10-20T14:45:21.256Z",
+  "publishedAt": null
+}

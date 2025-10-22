@@ -1,0 +1,92 @@
+{
+  "id": "ed960ed8-7845-49ba-95c4-18ba7993d5ff",
+  "title": "Classical Serenity",
+  "description": "A peaceful orchestral piece inspired by nature",
+  "creator": "test-creator-3",
+  "owner": "test-creator-3",
+  "collaborators": [],
+  "music": {
+    "duration": 300,
+    "genre": "Classical",
+    "bpm": 60,
+    "key": "D Major",
+    "mood": "Peaceful",
+    "instruments": [
+      "Piano",
+      "Violin",
+      "Cello",
+      "Flute"
+    ],
+    "tags": [
+      "classical",
+      "peaceful",
+      "orchestral",
+      "nature"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "8.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:45:21.254Z",
+  "updatedAt": "2025-10-20T14:45:21.254Z",
+  "publishedAt": null
+}

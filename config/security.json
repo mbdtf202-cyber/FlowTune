@@ -1,0 +1,131 @@
+{
+  "security": {
+    "contracts": {
+      "SecurityManager": {
+        "enabled": true,
+        "emergencyPause": {
+          "enabled": true,
+          "requiredSignatures": 2,
+          "cooldownPeriod": 3600
+        },
+        "rateLimiting": {
+          "enabled": true,
+          "defaultCooldown": 60,
+          "strictMode": false
+        },
+        "multiSig": {
+          "enabled": true,
+          "requiredSignatures": 2,
+          "maxAdmins": 5
+        }
+      },
+      "MusicNFT": {
+        "validation": {
+          "metadataRequired": true,
+          "urlValidation": true,
+          "royaltyLimits": {
+            "maxPercentage": 1.0,
+            "maxRoyalties": 10
+          }
+        },
+        "accessControl": {
+          "minterRestricted": true,
+          "pausable": true
+        }
+      },
+      "Marketplace": {
+        "security": {
+          "reentrancyProtection": true,
+          "royaltyValidation": true,
+          "priceValidation": true
+        },
+        "limits": {
+          "maxListingPrice": "1000000.0",
+          "minListingPrice": "0.01",
+          "maxRoyaltyPercentage": 1.0
+        }
+      }
+    },
+    "monitoring": {
+      "enabled": true,
+      "alertThresholds": {
+        "failedTransactions": 10,
+        "suspiciousActivity": 5,
+        "emergencyPauseActivations": 1
+      },
+      "logging": {
+        "level": "info",
+        "auditTrail": true,
+        "securityEvents": true
+      }
+    },
+    "compliance": {
+      "auditRequired": true,
+      "lastAuditDate": "2024-01-15",
+      "nextAuditDue": "2024-04-15",
+      "complianceStandards": [
+        "OWASP",
+        "Smart Contract Security Best Practices",
+        "Flow Security Guidelines"
+      ]
+    },
+    "incident": {
+      "responseTeam": [
+        "security@flowtune.com",
+        "admin@flowtune.com"
+      ],
+      "escalationProcedure": {
+        "level1": "Automatic pause if critical vulnerability detected",
+        "level2": "Notify security team within 15 minutes",
+        "level3": "Escalate to management within 1 hour"
+      }
+    }
+  },
+  "api": {
+    "security": {
+      "rateLimit": {
+        "enabled": true,
+        "requests": 100,
+        "window": 900,
+        "skipSuccessfulRequests": false
+      },
+      "cors": {
+        "enabled": true,
+        "allowedOrigins": [
+          "http://localhost:5173",
+          "https://flowtune.app"
+        ]
+      },
+      "headers": {
+        "xss": true,
+        "noSniff": true,
+        "frameguard": true,
+        "hsts": true
+      }
+    },
+    "validation": {
+      "inputSanitization": true,
+      "sqlInjectionPrevention": true,
+      "xssProtection": true
+    }
+  },
+  "frontend": {
+    "security": {
+      "csp": {
+        "enabled": true,
+        "directives": {
+          "defaultSrc": ["'self'"],
+          "scriptSrc": ["'self'", "'unsafe-inline'"],
+          "styleSrc": ["'self'", "'unsafe-inline'"],
+          "imgSrc": ["'self'", "data:", "https:"],
+          "connectSrc": ["'self'", "ws://localhost:*", "wss://localhost:*"]
+        }
+      },
+      "sanitization": {
+        "enabled": true,
+        "allowedTags": ["b", "i", "em", "strong", "p", "br"],
+        "allowedAttributes": []
+      }
+    }
+  }
+}

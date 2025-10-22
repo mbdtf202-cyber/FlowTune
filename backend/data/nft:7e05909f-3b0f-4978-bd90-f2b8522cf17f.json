@@ -1,0 +1,94 @@
+{
+  "id": "7e05909f-3b0f-4978-bd90-f2b8522cf17f",
+  "title": "Jazz Fusion Nights",
+  "description": "Smooth jazz fusion with modern electronic elements",
+  "creator": "0x4567890123456789012345678901234567890123",
+  "owner": "0x4567890123456789012345678901234567890123",
+  "collaborators": [],
+  "music": {
+    "duration": 220,
+    "genre": "Jazz",
+    "bpm": 137,
+    "key": "G",
+    "mood": "calm",
+    "instruments": [],
+    "tags": [
+      "jazz",
+      "fusion",
+      "smooth"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 6789,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0x55605792ee44e8",
+    "blockNumber": 1494519,
+    "gasUsed": 145118,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "12.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 463,
+    "plays": 470,
+    "likes": 173,
+    "shares": 34,
+    "downloads": 18,
+    "comments": 24,
+    "uniqueListeners": 430,
+    "totalPlayTime": 2947
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [
+    "jazz",
+    "fusion",
+    "smooth"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:37:34.201Z",
+  "updatedAt": "2025-10-20T14:37:34.201Z",
+  "publishedAt": null
+}

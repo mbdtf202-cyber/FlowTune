@@ -1,0 +1,90 @@
+{
+  "id": "22f0a959-1dcc-4c97-974d-3d4e746cca26",
+  "title": "Rock Anthem",
+  "description": "Powerful rock anthem with driving guitars and epic vocals",
+  "creator": "0x5678901234567890123456789012345678901234",
+  "owner": "0x5678901234567890123456789012345678901234",
+  "collaborators": [],
+  "music": {
+    "duration": 0,
+    "genre": "",
+    "bpm": 0,
+    "key": "",
+    "mood": "",
+    "instruments": [],
+    "tags": []
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 6115,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0x353b807c939db8",
+    "blockNumber": 1853404,
+    "gasUsed": 111249,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "20.0",
+    "currency": "FLOW",
+    "isForSale": false,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 309,
+    "plays": 515,
+    "likes": 38,
+    "shares": 5,
+    "downloads": 17,
+    "comments": 2,
+    "uniqueListeners": 298,
+    "totalPlayTime": 6936
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [
+    "rock",
+    "anthem",
+    "powerful"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:34:03.344Z",
+  "updatedAt": "2025-10-20T14:34:03.344Z",
+  "publishedAt": null
+}

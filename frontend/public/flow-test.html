@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow配置测试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .success { background-color: #d4edda; color: #155724; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .info { background-color: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>Flow配置测试</h1>
+    <div id="results"></div>
+    
+    <script type="module">
+        const results = document.getElementById('results');
+        
+        function addResult(message, type = 'info') {
+            const div = document.createElement('div');
+            div.className = `test-result ${type}`;
+            div.textContent = message;
+            results.appendChild(div);
+        }
+        
+        async function testFlowConfig() {
+            try {
+                addResult('🚀 开始Flow配置测试...');
+                
+                // 测试环境变量
+                addResult('🔧 检查环境变量...');
+                const envVars = {
+                    VITE_FLOW_NETWORK: import.meta.env.VITE_FLOW_NETWORK,
+                    VITE_FLOW_ACCESS_NODE: import.meta.env.VITE_FLOW_ACCESS_NODE,
+                    VITE_FLOW_DISCOVERY_WALLET: import.meta.env.VITE_FLOW_DISCOVERY_WALLET
+                };
+                
+                Object.entries(envVars).forEach(([key, value]) => {
+                    if (value) {
+                        addResult(`✅ ${key}: ${value}`, 'success');
+                    } else {
+                        addResult(`❌ ${key}: 未定义`, 'error');
+                    }
+                });
+                
+                // 测试网络连接
+                addResult('📡 测试Flow REST API连接...');
+                const accessNode = envVars.VITE_FLOW_ACCESS_NODE;
+                if (accessNode) {
+                    const response = await fetch(`${accessNode}/v1/blocks?height=sealed`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        addResult(`✅ Flow REST API连接成功 - 当前区块高度: ${data[0]?.header?.height}`, 'success');
+                    } else {
+                        addResult(`❌ Flow REST API连接失败 - HTTP ${response.status}`, 'error');
+                    }
+                } else {
+                    addResult('❌ 无法测试Flow REST API - 访问节点未配置', 'error');
+                }
+                
+                // 测试FCL导入
+                addResult('📦 测试FCL导入...');
+                try {
+                    const fcl = await import('@onflow/fcl');
+                    addResult('✅ FCL导入成功', 'success');
+                    
+                    // 配置FCL
+                    fcl.config({
+                        'flow.network': envVars.VITE_FLOW_NETWORK,
+                        'accessNode.api': envVars.VITE_FLOW_ACCESS_NODE,
+                        'discovery.wallet': envVars.VITE_FLOW_DISCOVERY_WALLET
+                    });
+                    
+                    addResult('✅ FCL配置完成', 'success');
+                    
+                    // 测试简单查询
+                    addResult('🧪 测试FCL查询...');
+                    const result = await fcl.query({
+                        cadence: `
+                            pub fun main(): String {
+                                return "Hello Flow"
+                            }
+                        `
+                    });
+                    
+                    addResult(`✅ FCL查询成功: ${result}`, 'success');
+                    
+                } catch (fclError) {
+                    addResult(`❌ FCL测试失败: ${fclError.message}`, 'error');
+                }
+                
+                addResult('🎉 Flow配置测试完成!', 'success');
+                
+            } catch (error) {
+                addResult(`❌ 测试过程中发生错误: ${error.message}`, 'error');
+                console.error('Flow配置测试错误:', error);
+            }
+        }
+        
+        // 启动测试
+        testFlowConfig();
+    </script>
+</body>
+</html>

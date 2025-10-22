@@ -1,0 +1,455 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "create": "Create",
+    "profile": "Profile",
+    "marketplace": "Marketplace",
+    "dashboard": "Dashboard",
+    "library": "Library",
+    "analytics": "Analytics",
+    "audioLibrary": "Audio Library",
+    "musicLibrary": "My Music"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share",
+    "download": "Download",
+    "play": "Play",
+    "pause": "Pause",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "copied": "Copied!",
+    "copyLink": "Copy Link",
+    "shareUrl": "Share URL",
+    "showQR": "Show QR Code",
+    "hideQR": "Hide QR Code"
+  },
+  "home": {
+    "title": "FlowTune",
+    "subtitle": "AI-Powered Music Creation on Flow Blockchain",
+    "description": "Create, mint, and trade unique music NFTs with the power of artificial intelligence",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "features": {
+      "aiGeneration": "AI Music Generation",
+      "nftMinting": "NFT Minting",
+      "marketplace": "Marketplace",
+      "analytics": "Analytics"
+    }
+  },
+  "create": {
+    "title": "Create Music",
+    "description": "Generate unique music with AI",
+    "form": {
+      "prompt": "Music Prompt",
+      "promptPlaceholder": "Describe the music you want to create...",
+      "duration": "Duration",
+      "mood": "Mood",
+      "instruments": "Instruments",
+      "generate": "Generate Music",
+      "generating": "Generating...",
+      "title": "Track Title",
+      "titlePlaceholder": "Enter track title...",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe your track..."
+    },
+    "genres": {
+      "electronic": "Electronic",
+      "ambient": "Ambient", 
+      "classical": "Classical",
+      "jazz": "Jazz",
+      "rock": "Rock",
+      "pop": "Pop",
+      "hip-hop": "Hip-Hop",
+      "techno": "Techno",
+      "house": "House",
+      "experimental": "Experimental"
+    },
+    "notifications": {
+      "musicGenerated": "Music generated successfully!",
+      "musicGenerationFailed": "Failed to generate music. Please try again.",
+      "audioUploaded": "Audio file uploaded successfully!",
+      "invalidAudioFile": "Please select a valid audio file.",
+      "coverImageUploaded": "Cover image uploaded successfully!",
+      "invalidImageFile": "Please select a valid image file.",
+      "noAudioFile": "Please generate or upload audio first.",
+      "missingMetadata": "Please fill in title and artist information.",
+      "nftMinted": "NFT minted successfully! Your music is now on the blockchain.",
+      "nftMintFailed": "Failed to mint NFT. Please try again."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "followers": "Followers",
+    "following": "Following",
+    "tracks": "Tracks",
+    "nfts": "NFTs",
+    "activity": "Activity",
+    "bio": "Bio",
+    "website": "Website",
+    "twitter": "Twitter",
+    "discord": "Discord",
+    "joinedDate": "Joined",
+    "stats": "Statistics",
+    "created": "Created",
+    "owned": "Owned",
+    "liked": "Liked",
+    "totalVolume": "Total Volume",
+    "averagePrice": "Average Price",
+    "userNotFound": "User Not Found",
+    "userNotFoundDesc": "The requested user profile could not be loaded.",
+    "joined": "Joined",
+    "plays": "Plays",
+    "likes": "Likes",
+    "shares": "Shares",
+    "socialSharing": "Social & Sharing",
+    "private": "Private"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "Manage your music NFTs and track performance",
+    "connectWallet": "Connect Your Wallet",
+    "connectWalletDesc": "Please connect your wallet to view your dashboard",
+    "loading": "Loading your dashboard...",
+    "periods": {
+      "last7Days": "Last 7 days",
+      "last30Days": "Last 30 days",
+      "last90Days": "Last 90 days",
+      "lastYear": "Last year"
+    },
+    "createNFT": "Create NFT",
+    "stats": {
+      "totalNFTs": "Total NFTs",
+      "totalEarnings": "Total Earnings",
+      "totalPlays": "Total Plays",
+      "totalLikes": "Total Likes"
+    },
+    "myNFTs": "My Music NFTs",
+    "nftsCount": "{{count}} NFTs",
+    "noNFTs": "No NFTs yet",
+    "noNFTsDesc": "Create your first music NFT to get started",
+    "createFirstNFT": "Create Your First NFT",
+    "nftStats": {
+      "plays": "Plays",
+      "likes": "Likes",
+      "earnings": "Earnings",
+      "price": "Price",
+      "notListed": "Not listed"
+    },
+    "status": {
+      "listed": "Listed",
+      "unlisted": "Unlisted",
+      "sold": "Sold",
+      "unknown": "Unknown"
+    },
+    "recentActivity": "Recent Activity",
+    "activity": {
+      "saleCompleted": "Sale completed",
+      "saleCompletedDesc": "\"{{title}}\" sold for {{price}} FLOW",
+      "nftCreated": "NFT created",
+      "nftCreatedDesc": "\"{{title}}\" minted successfully",
+      "newLikes": "New likes",
+      "newLikesDesc": "\"{{title}}\" received {{count}} new likes",
+      "timeAgo": {
+        "hours": "{{count}} hours ago",
+        "days": "{{count}} days ago"
+      }
+    }
+  },
+  "analytics": {
+    "title": "Advanced Data Analytics",
+    "description": "Blockchain data visualization and AI insight analysis platform",
+    "features": {
+      "realTimeMonitoring": {
+        "title": "Real-time Monitoring",
+        "description": "Monitor Flow blockchain real-time data and market dynamics"
+      },
+      "dataVisualization": {
+        "title": "Data Visualization",
+        "description": "Multi-dimensional charts display, intuitive understanding of data trends"
+      },
+      "duneIntegration": {
+        "title": "Dune Integration",
+        "description": "Integrate Dune Analytics to obtain professional data"
+      },
+      "aiInsights": {
+        "title": "AI Insights",
+        "description": "AI-driven market analysis and investment advice"
+      }
+    },
+    "loginRequired": "Login to Access Advanced Analytics",
+    "loginRequiredDesc": "Please log in to your account to view detailed data analysis, AI insights and visualization charts",
+    "loginNow": "Login Now",
+    "technicalInfo": {
+      "title": "Technical Information",
+      "dataSources": {
+        "title": "Data Sources",
+        "duneApi": "Dune Analytics API",
+        "flowBlockchain": "Flow Blockchain Data",
+        "nftMarket": "NFT Market Aggregated Data",
+        "realTimeEvents": "Real-time Event Stream"
+      },
+      "aiFeatures": {
+        "title": "AI Features",
+        "marketTrends": "Market Trend Analysis",
+        "investmentAdvice": "Investment Advice Generation",
+        "riskAssessment": "Risk Assessment",
+        "predictiveModels": "Predictive Models"
+      },
+      "visualization": {
+        "title": "Visualization",
+        "interactiveCharts": "Interactive Charts",
+        "realTimeUpdates": "Real-time Updates",
+        "multiTimeDimensions": "Multi-time Dimensions",
+        "customViews": "Custom Views"
+      }
+    }
+  },
+  "library": {
+    "title": "My Library",
+    "description": "Your collection of AI-generated music NFTs",
+    "connectWallet": "Connect Your Wallet",
+    "connectWalletDesc": "Please connect your wallet to access your music library",
+    "connectWalletButton": "Connect Wallet",
+    "searchPlaceholder": "Search your music...",
+    "filters": {
+      "allMusic": "All Music",
+      "liked": "Liked",
+      "recent": "Recent",
+      "playlists": "Playlists"
+    },
+    "createPlaylist": "Create Playlist",
+    "tracks": "tracks",
+    "noMusicFound": "No music found",
+    "adjustSearchTerms": "Try adjusting your search terms",
+    "startCreatingMusic": "Start creating some music to build your library",
+    "createMusic": "Create Music",
+    "myTracks": "My Tracks",
+    "favorites": "Favorites",
+    "playlists": "Playlists",
+    "recent": "Recently Played",
+    "notifications": {
+      "playingTrack": "Playing track",
+      "addedToFavorites": "Added to favorites",
+      "linkCopied": "Link copied to clipboard",
+      "downloadStarted": "Download started"
+    }
+  },
+  "audioLibrary": {
+    "title": "Audio Library",
+    "description": "Discover, play, and analyze your music collection with advanced streaming features",
+    "tabs": {
+      "library": "Library",
+      "analytics": "Analytics"
+    },
+    "filters": {
+      "allTracks": "All Tracks",
+      "myTracks": "My Tracks",
+      "liked": "Liked",
+      "electronic": "Electronic",
+      "hipHop": "Hip Hop",
+      "jazz": "Jazz"
+    },
+    "sort": {
+      "mostRecent": "Most Recent",
+      "mostPopular": "Most Popular",
+      "alphabetical": "A-Z"
+    },
+    "tracks": "tracks",
+    "plays": "plays",
+    "owned": "Owned",
+    "noTrackSelected": "No Track Selected",
+    "selectTrackToPlay": "Select a track from the library to start playing"
+  },
+  "musicLibrary": {
+    "title": "My Music Library",
+    "description": "Manage your created and owned music NFTs",
+    "connectWallet": "Connect Your Wallet",
+    "connectWalletDescription": "Please connect your wallet to view your music library",
+    "loading": "Loading your music library...",
+    "createNew": "Create New",
+    "searchPlaceholder": "Search music, artists, genres...",
+    "filters": {
+      "all": "All Music",
+      "created": "Created by Me",
+      "owned": "Owned",
+      "favorites": "Favorites"
+    },
+    "sort": {
+      "recent": "Most Recent",
+      "popular": "Most Popular",
+      "alphabetical": "A-Z",
+      "duration": "Duration"
+    },
+    "tracks": "tracks",
+    "noResults": "No music found",
+    "noMusic": "No music in your library",
+    "tryDifferentSearch": "Try adjusting your search terms",
+    "startCreating": "Start creating music to build your library",
+    "createFirst": "Create Your First Track",
+    "badges": {
+      "created": "Created",
+      "forSale": "For Sale"
+    },
+    "viewDetails": "View Details",
+    "play": "Play",
+    "pause": "Pause",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share",
+    "download": "Download",
+    "like": "Like",
+    "editNFT": "Edit NFT",
+      "confirmDelete": "Are you sure you want to delete this NFT? This action cannot be undone.",
+      "shareNFT": "Share NFT",
+    "table": {
+      "track": "Track",
+      "genre": "Genre",
+      "duration": "Duration",
+      "plays": "Plays",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "details": {
+      "genre": "Genre",
+      "duration": "Duration",
+      "plays": "Plays",
+      "likes": "Likes",
+      "description": "Description",
+      "blockchain": "Blockchain Info",
+      "tokenId": "Token ID",
+      "transaction": "Transaction"
+    },
+    "notifications": {
+      "loadFailed": "Failed to load music library",
+      "playingTrack": "Playing track",
+      "addedToFavorites": "Added to favorites",
+      "linkCopied": "Link copied to clipboard",
+      "downloadStarted": "Download started",
+      "updateSuccess": "NFT updated successfully",
+      "updateFailed": "Failed to update NFT",
+      "deleteSuccess": "NFT deleted successfully",
+      "deleteFailed": "Failed to delete NFT",
+      "downloadStarting": "Starting download...",
+      "downloadSuccess": "Download completed successfully",
+      "downloadFailed": "Download failed",
+      "downloadNotAllowed": "You don't have permission to download this NFT",
+      "noAudioFile": "No audio file available for download"
+    }
+  },
+  "marketplace": {
+    "title": "Music NFT Marketplace",
+    "description": "Discover and collect unique AI-generated music",
+    "noNFTs": "No NFTs found",
+    "price": "Price",
+    "owner": "Owner",
+    "buyNow": "Buy Now",
+    "placeBid": "Place Bid",
+    "all": "All",
+    "newestFirst": "Newest First",
+    "oldestFirst": "Oldest First",
+    "priceHighToLow": "Price: High to Low",
+    "priceLowToHigh": "Price: Low to High",
+    "mostPlayed": "Most Played",
+    "loading": "Loading marketplace...",
+    "nftsAvailable": "NFTs available",
+    "searchPlaceholder": "Search music, artists...",
+    "plays": "plays",
+    "buy": "Buy"
+  },
+  "language": {
+    "switch": "Language",
+    "english": "English",
+    "chinese": "中文"
+  },
+  "analytics": {
+    "title": "Advanced Data Analytics",
+    "description": "Real-time blockchain data monitoring and AI insights analysis",
+    "overview": "Overview",
+    "blockchain": "Blockchain",
+    "nftMarket": "NFT Market",
+    "musicNft": "Music NFT",
+    "aiInsights": "AI Insights",
+    "reports": "Reports",
+    "timeRange": "Time Range",
+    "chartType": "Chart Type",
+    "searchPlaceholder": "Search analytics data...",
+    "sortBy": "Sort By",
+    "exportData": "Export Data",
+    "loading": "Loading analytics data...",
+    "error": "Failed to load analytics data",
+    "retry": "Retry",
+    "exportJson": "Export JSON",
+    "exportCsv": "Export CSV",
+    "refresh": "Refresh",
+    "dataFilters": "Data Filters",
+    "search": "Search",
+    "searchArtists": "Search artists, works...",
+    "sortByDate": "By Date",
+    "sortByValue": "By Value",
+    "sortByVolume": "By Volume",
+    "sortByPrice": "By Price",
+    "timeRanges": {
+      "24h": "Last 24 Hours",
+      "7d": "Last 7 Days",
+      "30d": "Last 30 Days",
+      "90d": "Last 90 Days",
+      "1y": "Last Year"
+    },
+    "chartTypes": {
+      "line": "Line Chart",
+      "area": "Area Chart",
+      "bar": "Bar Chart",
+      "pie": "Pie Chart"
+    },
+    "metrics": {
+      "totalVolume": "Total Volume",
+      "activeUsers": "Active Users",
+      "totalNFTs": "Total NFTs",
+      "averagePrice": "Average Price",
+      "vsLastMonth": "vs last month"
+    },
+    "charts": {
+      "tradingTrend": "Trading Trends",
+      "genreDistribution": "Genre Distribution"
+    },
+    "reports": {
+      "detailedStats": "Detailed Statistics Report",
+      "date": "Date",
+      "volume": "Volume",
+      "users": "Users",
+      "avgPrice": "Avg Price",
+      "growthRate": "Growth Rate"
+    },
+    "insights": {
+      "title": "AI Smart Insights",
+      "confidence": "Confidence"
+    },
+    "units": {
+      "billion": "B",
+      "million": "M",
+      "thousand": "K"
+    },
+    "errors": {
+      "dataFetchFailed": "Failed to fetch data",
+      "networkError": "Network error"
+    }
+  }
+}

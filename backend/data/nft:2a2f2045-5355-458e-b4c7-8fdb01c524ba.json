@@ -1,0 +1,94 @@
+{
+  "id": "2a2f2045-5355-458e-b4c7-8fdb01c524ba",
+  "title": "Urban Pulse",
+  "description": "High-energy electronic track perfect for the city nightlife",
+  "creator": "0x2345678901234567890123456789012345678901",
+  "owner": "0x2345678901234567890123456789012345678901",
+  "collaborators": [],
+  "music": {
+    "duration": 240,
+    "genre": "Electronic",
+    "bpm": 132,
+    "key": "E",
+    "mood": "melancholic",
+    "instruments": [],
+    "tags": [
+      "electronic",
+      "urban",
+      "energetic"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 5511,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0xe564bf2265dcc",
+    "blockNumber": 1034989,
+    "gasUsed": 70515,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "15.5",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 326,
+    "plays": 966,
+    "likes": 200,
+    "shares": 6,
+    "downloads": 14,
+    "comments": 6,
+    "uniqueListeners": 243,
+    "totalPlayTime": 10737
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [
+    "electronic",
+    "urban",
+    "energetic"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:37:34.197Z",
+  "updatedAt": "2025-10-20T14:37:34.197Z",
+  "publishedAt": null
+}

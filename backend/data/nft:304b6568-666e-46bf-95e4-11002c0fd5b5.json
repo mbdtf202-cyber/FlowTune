@@ -1,0 +1,94 @@
+{
+  "id": "304b6568-666e-46bf-95e4-11002c0fd5b5",
+  "title": "Ethereal Dreams",
+  "description": "A mesmerizing ambient track that takes you on a journey through ethereal soundscapes",
+  "creator": "0x1234567890123456789012345678901234567890",
+  "owner": "0x1234567890123456789012345678901234567890",
+  "collaborators": [],
+  "music": {
+    "duration": 180,
+    "genre": "Ambient",
+    "bpm": 106,
+    "key": "C",
+    "mood": "calm",
+    "instruments": [],
+    "tags": [
+      "ambient",
+      "ethereal",
+      "relaxing"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 2478,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0xeaa59137f563d8",
+    "blockNumber": 1277468,
+    "gasUsed": 52189,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "10.0",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 1401,
+    "plays": 896,
+    "likes": 157,
+    "shares": 39,
+    "downloads": 8,
+    "comments": 2,
+    "uniqueListeners": 224,
+    "totalPlayTime": 4054
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": true,
+  "category": "music",
+  "tags": [
+    "ambient",
+    "ethereal",
+    "relaxing"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:37:34.191Z",
+  "updatedAt": "2025-10-20T14:37:34.191Z",
+  "publishedAt": null
+}

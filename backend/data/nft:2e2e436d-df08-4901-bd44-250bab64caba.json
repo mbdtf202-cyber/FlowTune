@@ -1,0 +1,92 @@
+{
+  "id": "2e2e436d-df08-4901-bd44-250bab64caba",
+  "title": "Rock Anthem",
+  "description": "Powerful rock anthem with driving guitars and drums",
+  "creator": "test-creator-5",
+  "owner": "test-creator-5",
+  "collaborators": [],
+  "music": {
+    "duration": 200,
+    "genre": "Rock",
+    "bpm": 140,
+    "key": "E Minor",
+    "mood": "Powerful",
+    "instruments": [
+      "Electric Guitar",
+      "Bass Guitar",
+      "Drums",
+      "Vocals"
+    ],
+    "tags": [
+      "rock",
+      "anthem",
+      "powerful",
+      "guitar"
+    ]
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": "",
+    "contractAddress": "",
+    "transactionHash": "",
+    "blockNumber": 0,
+    "mintedAt": null,
+    "network": "flow"
+  },
+  "market": {
+    "price": "20.0",
+    "currency": "FLOW",
+    "isForSale": false,
+    "saleType": "fixed"
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 0,
+    "plays": 0,
+    "likes": 0,
+    "shares": 0,
+    "downloads": 0,
+    "comments": 0,
+    "uniqueListeners": 0,
+    "totalPlayTime": 0
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [],
+  "language": "en",
+  "createdAt": "2025-10-20T14:43:23.650Z",
+  "updatedAt": "2025-10-20T14:43:23.650Z",
+  "publishedAt": null
+}

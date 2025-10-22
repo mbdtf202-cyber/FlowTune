@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "NonFungibleToken": {
+      "source": "mainnet://1d7e57aa55817448.NonFungibleToken",
+      "hash": "b25138dbf45e5801c3e98c9d6f6b1b47c5ac2ec6e46d4a9d5e6b8e6c8f2e1a3b",
+      "aliases": {
+        "emulator": "0xf8d6e0586b0a20c7",
+        "testnet": "0x631e88ae7f1d7c20"
+      }
+    },
+    "MetadataViews": {
+      "source": "mainnet://1d7e57aa55817448.MetadataViews", 
+      "hash": "a25138dbf45e5801c3e98c9d6f6b1b47c5ac2ec6e46d4a9d5e6b8e6c8f2e1a3c",
+      "aliases": {
+        "emulator": "0xf8d6e0586b0a20c7",
+        "testnet": "0x631e88ae7f1d7c20"
+      }
+    },
+    "FungibleToken": {
+      "source": "mainnet://f233dcee88fe0abe.FungibleToken",
+      "hash": "c25138dbf45e5801c3e98c9d6f6b1b47c5ac2ec6e46d4a9d5e6b8e6c8f2e1a3d",
+      "aliases": {
+        "emulator": "0xee82856bf20e2aa6",
+        "testnet": "0x9a0766d93b6608b7"
+      }
+    },
+    "FlowToken": {
+      "source": "mainnet://1654653399040a61.FlowToken",
+      "hash": "d25138dbf45e5801c3e98c9d6f6b1b47c5ac2ec6e46d4a9d5e6b8e6c8f2e1a3e",
+      "aliases": {
+        "emulator": "0x0ae53cb6e3f42a79",
+        "testnet": "0x7e60df042a9c0868"
+      }
+    }
+  }
+}

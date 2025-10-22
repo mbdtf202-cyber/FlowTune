@@ -1,0 +1,90 @@
+{
+  "id": "ea0979c0-beb6-41d6-a947-a6554232c7ba",
+  "title": "Urban Pulse",
+  "description": "High-energy electronic track perfect for the city nightlife",
+  "creator": "0x2345678901234567890123456789012345678901",
+  "owner": "0x2345678901234567890123456789012345678901",
+  "collaborators": [],
+  "music": {
+    "duration": 0,
+    "genre": "",
+    "bpm": 0,
+    "key": "",
+    "mood": "",
+    "instruments": [],
+    "tags": []
+  },
+  "aiGeneration": {
+    "prompt": "",
+    "model": "",
+    "parameters": {},
+    "generatedAt": null,
+    "processingTime": 0,
+    "version": "1.0"
+  },
+  "files": {
+    "audio": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "mp3",
+      "size": 0,
+      "quality": "high"
+    },
+    "cover": {
+      "ipfsHash": "",
+      "url": "",
+      "format": "jpg",
+      "size": 0
+    },
+    "metadata": {
+      "ipfsHash": "",
+      "url": ""
+    }
+  },
+  "blockchain": {
+    "tokenId": 2001,
+    "contractAddress": "0xMockContractAddress",
+    "transactionHash": "0x769d83f22143b8",
+    "blockNumber": 1563093,
+    "gasUsed": 64730,
+    "network": "flow-testnet"
+  },
+  "market": {
+    "price": "15.5",
+    "currency": "FLOW",
+    "isForSale": true,
+    "saleType": "fixed",
+    "auctionEndTime": null,
+    "highestBid": "0",
+    "bidders": [],
+    "salesHistory": []
+  },
+  "royalties": {
+    "percentage": 10,
+    "recipients": []
+  },
+  "analytics": {
+    "views": 503,
+    "plays": 178,
+    "likes": 66,
+    "shares": 11,
+    "downloads": 14,
+    "comments": 24,
+    "uniqueListeners": 403,
+    "totalPlayTime": 8372
+  },
+  "status": "minted",
+  "visibility": "public",
+  "isActive": true,
+  "isFeatured": false,
+  "category": "music",
+  "tags": [
+    "electronic",
+    "urban",
+    "energetic"
+  ],
+  "language": "en",
+  "createdAt": "2025-10-20T14:34:43.626Z",
+  "updatedAt": "2025-10-20T14:34:43.626Z",
+  "publishedAt": null
+}
